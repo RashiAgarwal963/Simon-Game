@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMON GAME</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--GOOGLE FONT LINK-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <h1 id="heading">PRESS ENTER KEY TO START</h1>
+    <div id="box">
+        <table>
+            <tr>
+                <td><button type="button" id="green" class="button" style="background-color: darkgreen;" onclick="game()"></button></td>
+                <td><button type="button" id="red" class="button" style="background-color: red;" onclick="game()"></button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="yellow" class="button" style="background-color: yellow;" onclick="game()"></button></td>
+                <td><button type="button" id="blue" class="button" style="background-color: blue;" onclick="game()"></button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--EXTERNAL JAVASCRIPT FILE -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
